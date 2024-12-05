@@ -1,0 +1,30 @@
+.zong{
+    width:1164px;
+    height:291px;
+    // -webkit-animation:change 10s linear infinite; //10s是整个动画的秒数 infinite是永久循环
+    animation:change 10s linear infinite; //10s是整个动画的秒数 infinite是永久循环
+}
+@keyframes change{
+    0%{
+        margin-left:0;
+    }
+    30%{
+        margin-left:0; 
+    }
+    /*总共用10秒，0%到30% 也是3.333秒第一张图片停留位置后面以此类推*/
+    33%{
+        margin-left:-291px;
+    }
+    63%{
+        margin-left:-291px;
+    }
+    66%{
+        margin-left:-582px;
+    }
+    97%{
+        margin-left:-582px;
+    }
+    100%{
+        margin-left:-873px;
+    }
+}
